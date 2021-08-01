@@ -23,5 +23,6 @@ time_CTL = 4
 deltap = 1
 deltapp = 1
 
+delta1CTL = if time < time_CTL then 0 else deltap * ( deltapp * (time - time_CTL) ) 
 
 Slog_perml = log10(S)
