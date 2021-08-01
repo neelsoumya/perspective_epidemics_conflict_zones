@@ -1,0 +1,31 @@
+
+
+METHOD RK4
+
+STARTTIME = 0
+STOPTIME=1000
+DT = 0.0004
+
+d/dt(S) = - beta*I*S + delta1CTL
+d/dt(I) = beta*I*S - v*I
+d/dt(R) = v*I
+
+; INITIAL STATE IN PRIMO INFECTION
+
+
+;S_0 = 1e7
+S_0 = 1e7
+Init S = S_0
+Init I = 1000
+Init R = 0
+beta = 1e-8
+v = 0.020 - 0.01*delta1CTL
+
+time_CTL = 4
+deltap = 1
+deltapp = 1
+delta1CTL = if time < time_CTL then 0 else deltap * ( deltapp * (time - time_CTL) ) 
+
+
+Slog_perml = log10(S)
+
