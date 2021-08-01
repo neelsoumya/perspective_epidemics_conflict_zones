@@ -8,7 +8,7 @@ Perspective on epidemics in conflict zones. This repository has code and other m
 
 ## Installation
 
-Instructions for using Berkeley Madonna
+Instructions for using Berkeley Madonna.
 
 Download the Berkeley Madonna solver.
 
