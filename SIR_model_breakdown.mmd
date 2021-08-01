@@ -36,12 +36,13 @@ Init S = S_0
 Init I = 1000
 Init R = 0
 beta = 1e-8
-v = 0.020 
+v = 0.020 - 0.01*delta1CTL
 
 time_CTL = 4
 deltap = 1
 deltapp = 1
 
+delta1CTL = if time <lt> time_CTL then 0 else deltap * ( deltapp * (time - time_CTL) ) 
 
 Slog_perml = log10(S)
 
