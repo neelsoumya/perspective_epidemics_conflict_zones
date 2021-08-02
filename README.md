@@ -43,6 +43,9 @@ Simply click on "Run" and go to the window (from Window in the menu bar) to see 
 
 `SIR_model_migration.txt` Berkeley Madonna script in plain text file for SIR model with migration of refugees
 
+The full visualization in the gapminder platform is available here:
+
+https://www.gapminder.org/tools/#$model$markers$bubble$encoding$y$data$concept=int_refg_in&source=fasttrack&space@=country&=time;;&scale$domain:null&zoomed:null&type:null;;&x$data$concept=time&space@=time;;&scale$domain:null&zoomed:null&type:null;;&trail$data$filter$markers$irn=1962&pak=1979&afg=1979;;;;;;;;&chart-type=bubbles&url=v1
 
 
 ## Manuscript
