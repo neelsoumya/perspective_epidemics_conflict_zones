@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Perspective on epidemics in conflict zones. This repository has code and other materials.
+Perspective on epidemics in conflict zones. This repository has code, installation instructions and other materials.
 
 
 ## Installation
